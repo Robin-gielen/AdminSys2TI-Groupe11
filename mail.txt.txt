@@ -1,0 +1,3 @@
+mail._domainkey IN      TXT     ( "v=DKIM1; h=sha256; k=rsa; "
+          "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0FBcCm2oLYNye9hI8FX3lm5eDS3WLbBliSoy7xFy9V4zxJyfkYDAqgAHEfUGg5E/7eEDzfdxfX+yGU/UhWqmOtTbRmwYfH28aSaXKMJCOJOoUa2HrGiwwpoYalYJDz3+/mkPR+uxUqmGM6rgHffkG+G/EQDOqI5S2Tpx/nwBpwkkQjyEU0DaYmCKgtL/RIBhEFuMt3qL1/QVhK"
+          "Kwn7RrKvCjsMJmrp/EKoFTE522QVMXNvUjdoNJQwMJzHKwkB0PvPWsTBwzhqLwlCivPxVBbrqe1su6jbUuNzLR6LXvxvf/Yo7wYHVWKPRLOTTz5inlqKc9gnX0+1z7Y9tJ7UtKFwIDAQAB" )  ; ----- DKIM key mail for wt11.ephec-ti.be
