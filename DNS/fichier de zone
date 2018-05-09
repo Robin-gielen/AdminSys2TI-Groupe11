@@ -8,7 +8,7 @@ $ORIGIN wt11.ephec-ti.be.
                              3h )              ; Negative Cache TTL
 ; Name servers, type NS
                         IN      NS      ns.wt11.ephec-ti.be.
-                        IN	    MX	10	mail.wt11.ephec-ti.be.
+                        IN	  MX	10	mail.wt11.ephec-ti.be.
 
 ; Name servers, type A
 ns                      IN      A       54.37.65.77
