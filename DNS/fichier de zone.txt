@@ -1,0 +1,24 @@
+$TTL 1d
+$ORIGIN wt11.ephec-ti.be.
+@    1D    IN        SOA       ns.wt11.ephec-ti.be. root.wt11.ephec-ti.be. (
+                              1                ; Serial
+                             3H                ; Refresh
+                             15                ; Retry
+                             1w                ; Expiree
+                             3h )              ; Negative Cache TTL
+; Name servers, type NS
+                        IN      NS      ns.wt11.ephec-ti.be.
+
+; Name servers, type A
+ns                      IN      A       54.37.65.77
+
+; Services Web
+serverWeb               IN      A       54.37.65.77
+www                     IN      CNAME   serverWeb
+b2b                     IN      CNAME   serverWeb
+intranet                IN      CNAME   serverWeb
+
+
+
+wt11.ephec-ti.be.                    IN                NS                   ns.wt11.ephec-ti.be.
+ns.wt11.ephec-ti.be.                IN                A                    54.37.65.77
