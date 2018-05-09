@@ -8,6 +8,7 @@ $ORIGIN wt11.ephec-ti.be.
                              3h )              ; Negative Cache TTL
 ; Name servers, type NS
                         IN      NS      ns.wt11.ephec-ti.be.
+                        IN	    MX	10	mail.wt11.ephec-ti.be.
 
 ; Name servers, type A
 ns                      IN      A       54.37.65.77
@@ -17,6 +18,12 @@ serverWeb               IN      A       54.37.65.77
 www                     IN      CNAME   serverWeb
 b2b                     IN      CNAME   serverWeb
 intranet                IN      CNAME   serverWeb
+
+; Services Mail
+mail 		                IN	    A	54.   37.65.77 
+smtp				           	IN	    CNAME	   mail
+pop3					          IN	    CNAME	   mail
+imap					          IN	    CNAME	   mail
 
 
 
