@@ -5,7 +5,32 @@
 // Consider adding the 1918 zones here, if they are not used in your
 // organization
 //include "/etc/bind/zones.rfc1918";
-zone "wt11.ephec-ti.be." {
-         type master;
-         file "/etc/bind/zones/fichierDeZone";
+acl internals {
+	localhost;
+	54.37.65.106;
+	54.37.65.77;
+	#85.201.8.211;	
 };
+
+view internal {
+	match-clients { internals; };
+	recursion yes;
+	allow-recursion { internals; };
+	forwarders {
+		8.8.8.8;
+		8.8.4.4;
+	};
+	zone "wt11.ephec-ti.be" {
+		type master;
+		file "/data/bind/etc/zones/zones-internal";
+	};
+};
+
+view external {
+	match-clients { any; };
+	zone "wt11.ephec-ti.be" {
+		type master;
+		file "/data/bind/etc/zones/zones-external";
+	};
+};
+
