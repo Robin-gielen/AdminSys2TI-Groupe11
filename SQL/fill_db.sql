@@ -1,0 +1,70 @@
+use woodytoys;
+
+INSERT INTO Client VALUES (0,'Quisque elit fermentum','97931 East Uruguay Blvd.','Parkersburg',207.88);
+INSERT INTO Client VALUES (1,'iaculis ut justo','45707  Micronesia Way','Pasadena',-2806.94);
+INSERT INTO Client VALUES (2,'fames est arcu','33031 North Argentina St.','Topeka',3923.09);
+INSERT INTO Client VALUES (3,'pulvinar suscipit sit','2548 South Brazil St.','Woonsocket',-2907.89);
+INSERT INTO Client VALUES (4,'Mauris sed ultricies','45970 East Forrest City St.','Plantation',-3935.84);
+INSERT INTO Client VALUES (5,'Etiam justo odio','28520 East Irwindale Way','Mobile',4661.82);
+INSERT INTO Client VALUES (6,'dui blandit sollicitudin','29166 North Bethany Way','Tallahassee',4656.13);
+INSERT INTO Client VALUES (7,'diam hymenaeos primis','52354 North Costa Rica Blvd.','Rolling Hills',4749.35);
+INSERT INTO Client VALUES (8,'urna mus tempor','70105 South Norfolk Island Ln.','Raleigh',-3213.45);
+INSERT INTO Client VALUES (9,'ullamcorper aliquam sapien','21423 East Italy Ct.','Bell Gardens',3216.16);
+INSERT INTO Client VALUES (10,'aliquet senectus tristique','20726 North Equatorial Guinea Way','Eufaula',-3673.68);
+INSERT INTO Client VALUES (11,'in volutpat rhoncus','82190 South Sudan Ave.','Fargo',-4636.37);
+INSERT INTO Client VALUES (12,'magnis ultrices tortor','63085 North Swaziland Way','Lowell',-2580.51);
+INSERT INTO Client VALUES (13,'ut leo mollis','93798 South Korea, Republic of Blvd.','Eden Prairie',4367.31);
+INSERT INTO Client VALUES (14,'nascetur Aenean ultricies','46069 South Denmark Ave.','Valencia',-2949.26);
+INSERT INTO Client VALUES (15,'dis senectus litora','47974 West Canada Ln.','Needham',-1003.72);
+
+INSERT INTO Produit VALUES (0,'varius',160.46,504);
+INSERT INTO Produit VALUES (1,'blandit',3119.02,78);
+INSERT INTO Produit VALUES (2,'Vestibulum',4640.19,288);
+INSERT INTO Produit VALUES (3,'Curae',4955.82,62);
+INSERT INTO Produit VALUES (4,'fermentum',3854.02,557);
+INSERT INTO Produit VALUES (5,'ac',1294.67,10);
+INSERT INTO Produit VALUES (6,'mollis',2575.66,379);
+INSERT INTO Produit VALUES (7,'lectus',4859.99,628);
+INSERT INTO Produit VALUES (8,'massa',3029.64,336);
+INSERT INTO Produit VALUES (9,'est',4623.91,654);
+INSERT INTO Produit VALUES (10,'euismod',914.15,223);
+INSERT INTO Produit VALUES (11,'ac',1075.63,20);
+INSERT INTO Produit VALUES (12,'inceptos',1752.94,30);
+INSERT INTO Produit VALUES (13,'quis',3729.96,604);
+INSERT INTO Produit VALUES (14,'Morbi',4814.15,415);
+INSERT INTO Produit VALUES (15,'ac',4325.48,36);
+INSERT INTO Produit VALUES (16,'Etiam',1771.60,756);
+INSERT INTO Produit VALUES (17,'Duis',1361.17,600);
+INSERT INTO Produit VALUES (18,'viverra',836.91,964);
+INSERT INTO Produit VALUES (19,'mus',1366.99,438);
+INSERT INTO Produit VALUES (20,'Cum',1949.92,389);
+
+INSERT INTO Commande VALUES (0,0,'2018-05-25 07:38:32');
+INSERT INTO Commande VALUES (1,1,'2018-05-24 00:25:47');
+INSERT INTO Commande VALUES (2,2,'2018-05-27 22:26:47');
+INSERT INTO Commande VALUES (3,3,'2018-05-26 08:37:45');
+INSERT INTO Commande VALUES (4,4,'2018-05-22 08:01:53');
+INSERT INTO Commande VALUES (5,5,'2018-05-24 17:48:14');
+INSERT INTO Commande VALUES (6,6,'2018-05-23 12:12:23');
+INSERT INTO Commande VALUES (7,7,'2018-05-28 22:30:52');
+INSERT INTO Commande VALUES (8,8,'2018-05-21 19:32:53');
+INSERT INTO Commande VALUES (9,9,'2018-05-14 12:06:32');
+
+INSERT INTO Detail VALUES (0,0,937);
+INSERT INTO Detail VALUES (1,1,271);
+INSERT INTO Detail VALUES (2,2,533);
+INSERT INTO Detail VALUES (3,3,367);
+INSERT INTO Detail VALUES (4,4,807);
+INSERT INTO Detail VALUES (5,5,659);
+INSERT INTO Detail VALUES (6,6,453);
+INSERT INTO Detail VALUES (7,7,515);
+INSERT INTO Detail VALUES (8,8,105);
+INSERT INTO Detail VALUES (9,9,461);
+
+INSERT INTO Employe VALUES (0,'Randall Barron','87337 East Israel St.','Stevens Point','2018-04-15 20:27:35');
+INSERT INTO Employe VALUES (1,'Thane Compton','56241 South Saudi Arabia Way','LaGrange','2018-03-14 14:03:35');
+INSERT INTO Employe VALUES (2,'Alea Middleton','87448 East Denver Ln.','Hagerstown','2018-04-29 04:33:06');
+INSERT INTO Employe VALUES (3,'Dolan Curtis','70464 East Oman Ave.','Hayward','2018-04-02 09:36:56');
+INSERT INTO Employe VALUES (4,'Avye Blankenship','15615 East Vanuatu St.','La Habra','2018-05-14 12:27:01');
+INSERT INTO Employe VALUES (5,'Patience Reilly','16433 South Norwich Ct.','Murray','2018-04-09 03:03:04');
+
